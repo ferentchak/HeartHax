@@ -7,9 +7,8 @@ var _ = require('lodash');
 var webpackConfig = require("./webpack.config.js");
 
 module.exports = function (grunt) {
-  // show elapsed time at the end
   require('time-grunt')(grunt);
-  // load all grunt tasks
+  grunt.loadNpmTasks('grunt-jsxhint');
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
@@ -25,7 +24,13 @@ module.exports = function (grunt) {
         src: './**/*.html',
         dest: './dist/',
         expand: true
-        }
+      },
+      lib: {
+        nonull: true,
+        src: './lib/**/*',
+        dest: './dist',
+        expand: true
+      },
     },
     sass: {
       options: {
@@ -69,6 +74,10 @@ module.exports = function (grunt) {
       sass: {
         files: ['src/**/*'],
         tasks: ['sass']
+      },
+      html: {
+        files: ['src/**/*.html'],
+        tasks: ['copy']
       }
     },
     shell: {

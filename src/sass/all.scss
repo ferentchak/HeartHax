@@ -1,4 +1,160 @@
-.all{
-  color:red;
+@import "positions";
+$background-color: #2B242A;
+$text-color: white;
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    html{
+      // font-size:70px;
+    }
 }
-@import 'portfolio-item';
+
+html{
+  background-color:$background-color;
+}
+
+body{
+  font-size:inherit;
+  color:$text-color;
+}
+
+.text-headline{
+  width:100%;
+  position:fixed;
+  top:2rem;
+  text-align:center;
+  font-size:200%;
+  span{
+    margin-left: -6rem;
+  }
+}
+
+.input-container{
+  span{
+    -webkit-transform:translate(-50%,-60%);
+    position:absolute;
+    top:50%;
+    left:50%;
+  }
+  position:fixed;
+  font-size:200%;
+  width:9rem;
+  height:9rem;
+  transition: color 1s;
+  &.yes{
+    top: calc(50% - 4.5rem);
+    left: calc(30% - 4.5rem);
+    &:hover{
+      color:green;
+    }
+  }
+  &.no{
+    top: calc(50% - 4.5rem);
+    left: calc(70% - 4.5rem);
+    &:hover{
+      color:red;
+    }
+  }
+}
+
+
+.view-area{
+  width:calc(100%-3rem);
+  height:calc(100%-3rem);
+  position:fixed;
+  margin: 3rem;
+  background-color:$background-color;
+}
+
+@-webkit-keyframes throb {
+  0% {
+    -webkit-transform: scale(1,1);
+    z-index: 5;
+  }
+  25% {
+    z-index: 4;
+  }
+  50% {
+    -webkit-transform:  scale(1.5,1.5);
+    z-index: 3;
+  }
+  100% {
+    -webkit-transform:  scale(1,1);
+    z-index: 2;
+  }
+}
+
+
+@-webkit-keyframes twinkle {
+  0% {
+    -webkit-transform: translate(-50%,-50%) scale(1,1);
+    z-index: 50;
+  }
+  50% {
+    -webkit-transform:  translate(-50%,-50%) scale(3,3);
+    z-index: 49;
+  }
+  100% {
+    -webkit-transform:  translate(-50%,-50%) scale(1,1);
+    z-index: 48;
+  }
+}
+
+.heart-container{
+  position:fixed;
+  -webkit-animation-iteration-count: 1;
+  font-size: 100%;
+  &.throb{
+    -webkit-animation: throb linear 1s;
+  }
+  &.large{
+    font-size: 140%;
+  }
+  &.medium{
+    font-size: 120%;
+  }
+  &.small{
+    font-size: 70%;
+  }
+  &.twinkle{
+    z-index:300;
+  }
+}
+
+.heart-part{
+  position:fixed;
+  padding:.2rem;
+  transition: left 3s,top 3s,font-size 3s;
+  &.twinkle{
+    -webkit-animation: twinkle ease-in 4s;
+  }
+  &.crying{
+    transition: left 2s,top 2s,font-size 2s;
+  }
+  &.red{
+    transform: translate(-50%,-50%) ;
+    color:#C91E5A;
+    z-index:0;
+  }
+  &.white{
+    transform: translate(-55%,-55%);
+    color:#EAD8C1;
+    z-index:1;
+    font-size: 64%;
+  }
+}
+
+
+.animate-enter {
+  opacity: 0.01;
+  transition: opacity .75s ease-in;
+}
+
+.animate-enter.animate-enter-active {
+  opacity: 1;
+}
+
+
+@import "celebrate";

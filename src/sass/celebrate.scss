@@ -1,0 +1,36 @@
+.fading{
+  &.fade-out{
+    opacity: 0;
+    -webkit-animation: fade-out linear 1s;
+  }
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+.growing{
+  &.fade-out{
+    opacity: 0;
+  }
+  &.mega-huge{
+    font-size: 2200%;
+    -webkit-animation: mega-huge linear 3s;
+  }
+}
+
+@-webkit-keyframes mega-huge {
+  0%{
+    -webkit-transform:  scale(1,1);
+  }
+  100% {
+    -webkit-transform:  scale(15,15);
+  }
+}
