@@ -3,6 +3,7 @@
 var React = require('react');
 var ReactAddons = require('react/addons').addons;
 var _ = require('lodash');
+var moment = require('moment');
 var HeartContainer = require('./heart-container');
 var Dispatcher = require('../dispatchers/dispatcher');
 var ReactCSSTransitionGroup = ReactAddons.CSSTransitionGroup;
@@ -139,13 +140,14 @@ var App = React.createClass({
 
   componentDidMount:function(){
     this.createHearts()
-    // .then(this.twinkle)
-    .then(this.moveToSquare)
-    .then(this.prepareQuestion)
+    .then(this.twinkle)
+    // .then(this.moveToSquare)
+    // .then(this.prepareQuestion)
     .then(this.yesClick);
   },
 
   oneGiantHeart:function(){
+    console.log("one giant");
     this.setState({
       step:"growing",
       getAnimation:(n)=>{
@@ -190,6 +192,7 @@ var App = React.createClass({
   },
 
   fadeOut:function(){
+    console.log("fade out");
     this.setState({
       step:"fading",
       getAnimation:(n)=>{
@@ -243,14 +246,19 @@ var App = React.createClass({
 
   yesClick:function(){
     this.moveToRandom()
-    // .then(this.moveToRandom)
-    // .then(this.moveToRandom)
-    // .then(this.moveToRandom)
+    .then(this.moveToRandom)
+    .then(this.moveToRandom)
+    .then(this.moveToRandom)
     .then(this.fadeOut)
     .then(this.oneGiantHeart);
   },
 
   render:function(){
+    var startTime = moment(new Date());
+    var end = moment(new Date(2015, 8, 3, 17, 5, 0, 0));
+    var duration = moment.duration(end.diff(startTime));
+    var hours = duration.asHours();
+    hours = (Math.floor(hours*1000)/1000) + " hours left";
     var hearts = [];
 
     _.times(this.state.heartCount,(n)=>
@@ -269,22 +277,11 @@ var App = React.createClass({
       ));
     });
     var asking = this.state.step==="asking" ? "":"hidden";
-    var noContainer = (
-      <span className={"no input-container " + asking} onClick={this.noClick} key="no">
-        <span>
-          no
-        </span>
-      </span>);
-    var yesContainer = (
-      <span className={"yes input-container " + asking} onClick={this.yesClick} key="yes">
-        <span>
-          yes
-        </span>
-      </span>);
+
     var textHeadline = (
-      <span className={"text-headline " + asking} key="headline">
+      <span className={"text-headline asking"} key="headline">
         <span>
-          do you like me
+          {hours}
         </span>
       </span>
     );
@@ -293,8 +290,6 @@ var App = React.createClass({
       <div className="view-area">
         <ReactCSSTransitionGroup transitionName="animate">
           {textHeadline}
-          {noContainer}
-          {yesContainer}
           {hearts}
         </ReactCSSTransitionGroup>
       </div>
