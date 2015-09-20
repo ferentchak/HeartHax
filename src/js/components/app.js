@@ -255,12 +255,11 @@ var App = React.createClass({
 
   render:function(){
     var startTime = moment(new Date());
-    var end = moment(new Date(2015, 8, 3, 17, 5, 0, 0));
+    var end = moment(new Date(2015, 8, 20, 17, 15, 0, 0));
     var duration = moment.duration(end.diff(startTime));
     var hours = duration.asHours();
     hours = (Math.floor(hours*1000)/1000) + " hours left";
     var hearts = [];
-
     _.times(this.state.heartCount,(n)=>
     {
       hearts.push((
