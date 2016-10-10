@@ -17,7 +17,7 @@
   return check;
 }
 if(mobilecheck()){
-  if (!confirm("This site many large images.\n It is best suited for viewing on a computer. \nDo you want to continue?\n") == true) {
+  if (!confirm("This site has many large images.\n It is best suited for viewing on a computer. \nDo you want to continue?\n") == true) {
       //redirect to instagram
       location.replace("https://www.instagram.com/ferentchak1/");
   }
@@ -31,6 +31,19 @@ if(mobilecheck()){
 
   <!-- Custom Fonts -->
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <script>
+    window.photos = [];
+    window.photos.push({
+      title:'',
+      url:'',
+      previewUrl:'',
+      keywords:{
+        girl-in-hat:true,
+        model:true
+      }
+    });
+  </script>
 </head>
 
 
@@ -41,22 +54,22 @@ if(mobilecheck()){
   <ul class="sidebar-nav">
     <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
     <li class="sidebar-brand">
-      <a href="#top"  onclick = $("#menu-close").click(); ></a>
+      <a href="#top"></a>
     </li>
     <li>
-      <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+      <a href="#top">Home</a>
     </li>
     <li>
-      <a href="#about" onclick = $("#menu-close").click(); >About</a>
+      <a href="#about">About</a>
     </li>
     <li>
-      <a href="#services" onclick = $("#menu-close").click(); >Services</a>
+      <a href="#services">Services</a>
     </li>
     <li>
-      <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+      <a href="#portfolio">Portfolio</a>
     </li>
     <li>
-      <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+      <a href="#contact">Contact</a>
     </li>
   </ul>
 </nav>
@@ -74,7 +87,9 @@ if(mobilecheck()){
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2></h2>
-        <p class="lead"></p>
+        <p class="lead">i have created this site out of my love of beauty </p>
+        <p class="lead">beauty as experienced in  nature</p>
+        <p class="lead">and the beauty of people as they interact nature</p>
       </div>
     </div>
     <!-- /.row -->
@@ -86,7 +101,7 @@ if(mobilecheck()){
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h2>Our Work</h2>
+        <h2>Current Work</h2>
         <hr class="small">
         <div class="row">
           <div class="col-md-6">
@@ -110,12 +125,6 @@ if(mobilecheck()){
               </a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-              </a>
-            </div>
           </div>
         </div>
         <!-- /.row (nested) -->
@@ -132,37 +141,26 @@ if(mobilecheck()){
   <div class="container">
     <div class="row">
       <div class="hide col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>Start Bootstrap</strong>
+        <h4><strong></strong>
         </h4>
         <p>
           
-          3481 Melrose Hill St<br>
+          <br>
           
-          Los Angeles, CA 90029<br>
+          <br>
           
         </p>
         <ul class="list-unstyled">
-          <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
+          <li><i class="fa fa-phone fa-fw"></i> </li>
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:"></a>
           </li>
         </ul>
         <br>
-        <ul class="list-inline">
-          <li>
-            <a href="https://facebook.com/example"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/example"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-          </li>
-          <li>
-            <a href="https://github.com/example"><i class="fa fa-github fa-fw fa-3x"></i></a>
-          </li>
-        </ul>
         <hr class="small">
 
       </div>
       <p class="text-muted">Copyright &copy; Charles Ferentchak 2016</p>
-      <p class="text-muted">All images are available under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/legalcode"> Creative Commons Attribution-ShareAlike 3.0 United States</a>  </p>
+      <p class="text-muted">All images are available under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/legalcode"> Creative Commons Attribution-ShareAlike 3.0 License. If you need a more </a>  </p>
     </div>
   </div>
 </footer>
@@ -179,6 +177,11 @@ if(mobilecheck()){
   ga('create', 'UA-80419813-1', 'auto');
   ga('send', 'pageview');
 
+
+  $(window).on('hashchange', function (e) {
+    console.log("wtf");
+      //$("#menu-close").click();
+  })
 </script>
 
 
