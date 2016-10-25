@@ -1,7 +1,17 @@
 
-window.cyn = "Cynthia Berg";
+window.cyn = "Cynthia";
 
 window.photos = [
+
+  {
+     "title":"",
+     "url":"/img/CynthiaLeadville.jpg",
+     "previewUrl":"/img/preview/CynthiaLeadville.jpg",
+     "keywords":{
+       "person":cyn,
+       "location":"Leadville, CO, USA"
+     }
+  },
    {
       "title":"Columbine Taken At Conumndrum Hot Springs",
       "url":"/img/Fullsize-3.jpg",
@@ -9,7 +19,9 @@ window.photos = [
       "keywords":{
         "flower":true,
         "Conumndrum":true,
-        "nature":true
+        "landscape":true,
+        "nature":true,
+        "location":"Aspen, CO USA"
       }
    },
    {
@@ -18,7 +30,8 @@ window.photos = [
       "previewUrl":"/img/preview/ConumndrumLog-4.jpg",
       "keywords":{
         "firedancer":true,
-        "people":true
+        "people":true,
+        "location":"Ao Nang, Thailand"
       }
    },
    {
@@ -36,6 +49,7 @@ window.photos = [
       "previewUrl":"/img/preview/ConumndrumLog-6.jpg",
       "keywords":{
         "nature":true,
+        "landscape":true,
         "Conumndrum":true
       }
    },
@@ -66,7 +80,7 @@ window.photos = [
       }
    },
    {
-      "title":"Moab Arches with Cynthia Berg",
+      "title":"Moab Arches National Park with Cynthia Berg",
       "url":"/img/Fullsize-10.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-10.jpg",
       "keywords":{
@@ -76,59 +90,58 @@ window.photos = [
       }
    },
    {
-      "title":"",
+      "title":"Lake at Heritage Square",
       "url":"/img/Fullsize-11.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-11.jpg",
       "keywords":{
-
+        "landscape":true,
+        "nature": true
       }
    },
    {
-      "title":"",
+      "title":"Maroon Bell",
       "url":"/img/Fullsize-12.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-12.jpg",
       "keywords":{
-
+        "flower":"Maroon Bell",
+        "landscape":true,
+        "nature": true
       }
    },
    {
-      "title":"",
-      "url":"/img/Fullsize-13.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-13.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
+      "title":"Amy at Arches",
       "url":"/img/Fullsize-14.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-14.jpg",
       "keywords":{
-
+        "model":"Amy",
+        "nature": true
       }
    },
    {
-      "title":"",
+      "title":"Spider Web at Conumndrem",
       "url":"/img/Fullsize-15.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-15.jpg",
+      "hide":true
       "keywords":{
-
+        "landscape":true,
+        "nature": true
       }
    },
    {
-      "title":"",
+      "title":"Monkey at Ao Nang",
       "url":"/img/Fullsize-16.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-16.jpg",
       "keywords":{
-
+        "nature":true
       }
    },
    {
-      "title":"",
+      "title":"Cactus Flowering near Manitou Springs",
       "url":"/img/Fullsize-17.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-17.jpg",
       "keywords":{
-
+        "flower":"cactus",
+        "nature":true
       }
    },
    {
@@ -348,11 +361,12 @@ window.photos = [
       }
    },
    {
-      "title":"",
-      "url":"/img/Fullsize-45.jpg",
+      "title":"Denver City Park Fountain",
+      "url":"/img/CityParkFountainFullMoon.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-45.jpg",
       "keywords":{
-
+        "landscape":true,
+        "nature":true
       }
    },
    {
