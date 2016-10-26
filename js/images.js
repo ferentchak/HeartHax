@@ -284,14 +284,6 @@ window.photos = [
    },
    {
       "title":"",
-      "url":"/img/Fullsize-37.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-37.jpg",
-      "keywords":{
-        "person":"Amy"
-      }
-   },
-   {
-      "title":"",
       "url":"/img/Fullsize-38.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-38.jpg",
       "keywords":{

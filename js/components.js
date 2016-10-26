@@ -36,20 +36,27 @@ var ImageContainer = React.createClass({
 
 var ImagePreview = React.createClass({
   displayName: "ImagePreview",
-
+  getInitialState: function getInitialState() {
+    return {
+      toggled: false
+    };
+  },
+  fullScreen:function(){
+    this.setState({toggled:true});
+  },
   render: function render() {
     var title = this.props.photo.title;
     return React.createElement(
       "div",
-      { className: "col-md-4 col-sm-6" },
+      { className: "col-sm-6" },
       React.createElement(
         "div",
         { className: "portfolio-item" },
-        React.createElement(
-          "a",
-          { href: this.props.photo.url },
-          React.createElement("img", { alt: title, className: "img-portfolio img-responsive", src: this.props.photo.previewUrl })
-        )
+        React.createElement("img",
+        {
+          alt: title, className: "img-portfolio img-responsive", src: this.props.photo.previewUrl,
+          onClick:this.fullScreen
+        })
       )
     );
   }
