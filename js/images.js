@@ -29,7 +29,7 @@ window.photos = [
       "previewUrl":"/img/preview/ConumndrumLog-4.jpg",
       "keywords":{
         "firedancer":true,
-        "people":true,
+        "person":true,
         "location":"Ao Nang, Thailand"
       }
    },
@@ -112,7 +112,7 @@ window.photos = [
       "url":"/img/Fullsize-14.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-14.jpg",
       "keywords":{
-        "model":"Amy",
+        "person":"Amy",
         "nature": true
       }
    },
@@ -131,7 +131,8 @@ window.photos = [
       "url":"/img/Fullsize-16.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-16.jpg",
       "keywords":{
-        "nature":true
+        "nature": true,
+        "person": true
       }
    },
    {
@@ -148,7 +149,7 @@ window.photos = [
       "url":"/img/Fullsize-18.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-18.jpg",
       "keywords":{
-
+"person":"Gen"
       }
    },
    {
@@ -156,7 +157,7 @@ window.photos = [
       "url":"/img/Fullsize-19.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-19.jpg",
       "keywords":{
-
+"person":"Gen"
       }
    },
    {
@@ -164,7 +165,7 @@ window.photos = [
       "url":"/img/Fullsize-20.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-20.jpg",
       "keywords":{
-
+"person":"Gen"
       }
    },
    {
@@ -188,11 +189,12 @@ window.photos = [
       "url":"/img/Fullsize-24.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-24.jpg",
       "keywords":{
-
+        "person":cyn
       }
    },
    {
       "title":"",
+      "hide":true,
       "url":"/img/Fullsize-25.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-25.jpg",
       "keywords":{
@@ -217,6 +219,7 @@ window.photos = [
    },
    {
       "title":"",
+      "hide":true,
       "url":"/img/Fullsize-28.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-28.jpg",
       "keywords":{
@@ -228,7 +231,7 @@ window.photos = [
       "url":"/img/Fullsize-29.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-29.jpg",
       "keywords":{
-
+        "person":cyn
       }
    },
    {
@@ -276,7 +279,7 @@ window.photos = [
       "url":"/img/Fullsize-36.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-36.jpg",
       "keywords":{
-
+        "person":"Amy"
       }
    },
    {
@@ -284,7 +287,7 @@ window.photos = [
       "url":"/img/Fullsize-37.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-37.jpg",
       "keywords":{
-
+        "person":"Amy"
       }
    },
    {
@@ -292,7 +295,7 @@ window.photos = [
       "url":"/img/Fullsize-38.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-38.jpg",
       "keywords":{
-
+        "person":"Gen"
       }
    },
    {
@@ -305,6 +308,7 @@ window.photos = [
    },
    {
       "title":"",
+      "hide":true,
       "url":"/img/Fullsize-40.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-40.jpg",
       "keywords":{
@@ -316,7 +320,7 @@ window.photos = [
       "url":"/img/Fullsize-42.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-42.jpg",
       "keywords":{
-
+        "person":cyn
       }
    },
    {
@@ -347,6 +351,7 @@ window.photos = [
    {
       "title":"",
       "url":"/img/Fullsize-46.jpg",
+      "hide":true,
       "previewUrl":"/img/preview/ConumndrumLog-46.jpg",
       "keywords":{
 
@@ -373,7 +378,7 @@ window.photos = [
       "url":"/img/Fullsize-51.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-51.jpg",
       "keywords":{
-
+        "person":"gen"
       }
    },
    {
@@ -381,7 +386,7 @@ window.photos = [
       "url":"/img/Fullsize-52.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-52.jpg",
       "keywords":{
-
+        "person":"gen"
       }
    },
    {
@@ -389,7 +394,7 @@ window.photos = [
       "url":"/img/Fullsize-54.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-54.jpg",
       "keywords":{
-
+        "person":"Amy"
       }
    },
    {

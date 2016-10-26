@@ -100,7 +100,9 @@
 </section>
 
 <script>
-    ReactDOM.render(React.createElement( ImageContainer), document.getElementById('container'));
+    ReactDOM.render(
+      React.createElement( ImageContainer,{filter:(photo)=>{ return photo.keywords.person && !photo.hide; }}), 
+      document.getElementById('container'));
 </script>
 
   <footer>

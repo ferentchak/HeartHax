@@ -4,9 +4,10 @@ var ImageContainer = React.createClass({
   displayName: "ImageContainer",
 
   getInitialState: function getInitialState() {
+    var defaultFilter = (photo)=>{return !photo.hide;};
     return {
       photos: window.photos,
-      filter:(photo)=>{return !photo.hide;}
+      filter: this.props.filter || defaultFilter
     };
   },
   getItems: function getItems() {
@@ -46,7 +47,7 @@ var ImagePreview = React.createClass({
         { className: "portfolio-item" },
         React.createElement(
           "a",
-          { href: this.props.photo.image },
+          { href: this.props.photo.url },
           React.createElement("img", { alt: title, className: "img-portfolio img-responsive", src: this.props.photo.previewUrl })
         )
       )
