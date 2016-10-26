@@ -1,6 +1,5 @@
 
 window.cyn = "Cynthia";
-
 window.photos = [
 
   {
@@ -37,7 +36,7 @@ window.photos = [
    {
       "title":"Cynthia on a rock by Leadville",
       "url":"/img/Fullsize-5.jpg",
-      "hide":true
+      "hide":true,
       "previewUrl":"/img/preview/ConumndrumLog-5.jpg",
       "keywords":{
         "person":cyn
@@ -56,7 +55,7 @@ window.photos = [
    {
       "title":"Ariel City Park ",
       "url":"/img/Fullsize-7.jpg",
-      "hide":true
+      "hide":true,
       "previewUrl":"/img/preview/ConumndrumLog-7.jpg",
       "keywords":{
         "person":true
@@ -65,7 +64,7 @@ window.photos = [
    {
       "title":"Ariel City Park",
       "url":"/img/Fullsize-8.jpg",
-      "hide":true
+      "hide":true,
       "previewUrl":"/img/preview/ConumndrumLog-8.jpg",
       "keywords":{
         "person":true
@@ -121,7 +120,7 @@ window.photos = [
       "title":"Spider Web at Conumndrem",
       "url":"/img/Fullsize-15.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-15.jpg",
-      "hide":true
+      "hide":true,
       "keywords":{
         "landscape":true,
         "nature": true
@@ -172,14 +171,6 @@ window.photos = [
       "title":"",
       "url":"/img/Fullsize-21.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-21.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-22.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-22.jpg",
       "keywords":{
 
       }
@@ -266,14 +257,6 @@ window.photos = [
    },
    {
       "title":"",
-      "url":"/img/Fullsize-33.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-33.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
       "url":"/img/Fullsize-34.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-34.jpg",
       "keywords":{
@@ -330,14 +313,6 @@ window.photos = [
    },
    {
       "title":"",
-      "url":"/img/Fullsize-41.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-41.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
       "url":"/img/Fullsize-42.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-42.jpg",
       "keywords":{
@@ -379,22 +354,6 @@ window.photos = [
    },
    {
       "title":"",
-      "url":"/img/Fullsize-47.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-47.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-48.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-48.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
       "url":"/img/Fullsize-49.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-49.jpg",
       "keywords":{
@@ -427,32 +386,8 @@ window.photos = [
    },
    {
       "title":"",
-      "url":"/img/Fullsize-53.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-53.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
       "url":"/img/Fullsize-54.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-54.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-55.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-55.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-56.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-56.jpg",
       "keywords":{
 
       }
@@ -579,22 +514,6 @@ window.photos = [
    },
    {
       "title":"",
-      "url":"/img/Fullsize-72.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-72.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-73.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-73.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
       "url":"/img/Fullsize-74.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-74.jpg",
       "keywords":{
@@ -627,26 +546,10 @@ window.photos = [
    },
    {
       "title":"",
-      "url":"/img/Fullsize-78.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-78.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
       "url":"/img/Fullsize-79.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-79.jpg",
       "keywords":{
 
       }
    },
-   {
-      "title":"",
-      "url":"/img/Fullsize-80.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-80.jpg",
-      "keywords":{
-
-      }
-   }
 ];
