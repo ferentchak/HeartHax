@@ -1,7 +1,15 @@
 
 window.cyn = "Cynthia";
 window.photos = [
-
+  {
+     "title":"Train in Idaho Springs",
+     "url":"/img/Train.jpg",
+     "previewUrl":"/img/preview/Train.jpg",
+     "keywords":{
+       "nature":true
+     },
+     order:0
+  },
   {
      "title":"",
      "url":"/img/CynthiaLeadville.jpg",
@@ -9,7 +17,8 @@ window.photos = [
      "keywords":{
        "person":cyn,
        "location":"Leadville, CO, USA"
-     }
+     },
+    order:0
   },
    {
       "title":"Columbine Taken At Conumndrum Hot Springs",
@@ -20,16 +29,6 @@ window.photos = [
         "Conumndrum":true,
         "nature":true,
         "location":"Aspen, CO USA"
-      }
-   },
-   {
-      "title":"Thai Firedancer",
-      "url":"/img/Fullsize-4.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-4.jpg",
-      "keywords":{
-        "firedancer":true,
-        "person":true,
-        "location":"Ao Nang, Thailand"
       }
    },
    {
@@ -384,14 +383,6 @@ window.photos = [
       }
    },
    {
-      "title":"Train in Idaho Springs",
-      "url":"/img/Train.jpg",
-      "previewUrl":"/img/preview/Train.jpg",
-      "keywords":{
-        "nature":true
-      }
-   },
-   {
       "title":"Contiental Divide Trail",
       "url":"/img/TrailRidgeRoad.jpg",
       "previewUrl":"/img/preview/TrailRidgeRoad.jpg",
@@ -399,4 +390,15 @@ window.photos = [
         "nature":true
       }
    },
+
+   {
+      "title":"Thai Firedancer",
+      "url":"/img/Fullsize-4.jpg",
+      "previewUrl":"/img/preview/ConumndrumLog-4.jpg",
+      "keywords":{
+        "firedancer":true,
+        "person":true,
+        "location":"Ao Nang, Thailand"
+      }
+   }
 ];

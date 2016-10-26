@@ -20,8 +20,8 @@ var ImageFilter = React.createClass({
   render: function render() {
     var filterPhotos = (photo)=>{
       if(photo.hide) return false;
-      return photo.keywords.person == this.state.showPeople
-        || photo.keywords.nature == this.state.showLandscape;
+      return !!photo.keywords.person == this.state.showPeople
+        || !!photo.keywords.nature == this.state.showLandscape;
     };
     return React.createElement(
       "div",
