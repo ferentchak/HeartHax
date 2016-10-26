@@ -7,8 +7,7 @@ window.photos = [
      "previewUrl":"/img/preview/Train.jpg",
      "keywords":{
        "nature":true
-     },
-     order:0
+     }
   },
   {
      "title":"",
@@ -17,8 +16,16 @@ window.photos = [
      "keywords":{
        "person":cyn,
        "location":"Leadville, CO, USA"
-     },
-    order:0
+     }
+  },
+  {
+     "title":"Monks Eating at A Thai Wedding",
+     "url":"/img/Fullsize.jpg",
+     "previewUrl":"/img/preview/ConumndrumLog.jpg",
+     "keywords":{
+       "person":"Monks",
+       "location":"Bangkok, Thailand"
+     }
   },
    {
       "title":"Columbine Taken At Conumndrum Hot Springs",
