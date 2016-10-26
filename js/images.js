@@ -18,7 +18,6 @@ window.photos = [
       "keywords":{
         "flower":true,
         "Conumndrum":true,
-        "landscape":true,
         "nature":true,
         "location":"Aspen, CO USA"
       }
@@ -48,7 +47,6 @@ window.photos = [
       "previewUrl":"/img/preview/ConumndrumLog-6.jpg",
       "keywords":{
         "nature":true,
-        "landscape":true,
         "Conumndrum":true
       }
    },
@@ -93,7 +91,6 @@ window.photos = [
       "url":"/img/Fullsize-11.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-11.jpg",
       "keywords":{
-        "landscape":true,
         "nature": true
       }
    },
@@ -103,7 +100,6 @@ window.photos = [
       "previewUrl":"/img/preview/ConumndrumLog-12.jpg",
       "keywords":{
         "flower":"Maroon Bell",
-        "landscape":true,
         "nature": true
       }
    },
@@ -122,7 +118,6 @@ window.photos = [
       "previewUrl":"/img/preview/ConumndrumLog-15.jpg",
       "hide":true,
       "keywords":{
-        "landscape":true,
         "nature": true
       }
    },
@@ -149,7 +144,7 @@ window.photos = [
       "url":"/img/Fullsize-18.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-18.jpg",
       "keywords":{
-"person":"Gen"
+        "person":"Gen"
       }
    },
    {
@@ -157,7 +152,7 @@ window.photos = [
       "url":"/img/Fullsize-19.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-19.jpg",
       "keywords":{
-"person":"Gen"
+        "person":"Gen"
       }
    },
    {
@@ -165,7 +160,7 @@ window.photos = [
       "url":"/img/Fullsize-20.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-20.jpg",
       "keywords":{
-"person":"Gen"
+        "person":"Gen"
       }
    },
    {
@@ -206,7 +201,7 @@ window.photos = [
       "url":"/img/Fullsize-26.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-26.jpg",
       "keywords":{
-
+        "nature": true
       }
    },
    {
@@ -214,16 +209,7 @@ window.photos = [
       "url":"/img/Fullsize-27.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-27.jpg",
       "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "hide":true,
-      "url":"/img/Fullsize-28.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-28.jpg",
-      "keywords":{
-
+        "nature": true
       }
    },
    {
@@ -239,7 +225,7 @@ window.photos = [
       "url":"/img/Fullsize-30.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-30.jpg",
       "keywords":{
-
+        "nature": true
       }
    },
    {
@@ -247,7 +233,7 @@ window.photos = [
       "url":"/img/Fullsize-31.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-31.jpg",
       "keywords":{
-
+        "nature": true
       }
    },
    {
@@ -255,7 +241,7 @@ window.photos = [
       "url":"/img/Fullsize-32.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-32.jpg",
       "keywords":{
-
+        "nature": true
       }
    },
    {
@@ -263,7 +249,7 @@ window.photos = [
       "url":"/img/Fullsize-34.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-34.jpg",
       "keywords":{
-
+        "nature": true
       }
    },
    {
@@ -271,7 +257,7 @@ window.photos = [
       "url":"/img/Fullsize-35.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-35.jpg",
       "keywords":{
-
+        "nature": true
       }
    },
    {
@@ -295,16 +281,7 @@ window.photos = [
       "url":"/img/Fullsize-39.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-39.jpg",
       "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "hide":true,
-      "url":"/img/Fullsize-40.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-40.jpg",
-      "keywords":{
-
+        "nature": true
       }
    },
    {
@@ -316,19 +293,20 @@ window.photos = [
       }
    },
    {
-      "title":"",
+      "title":"Trail Ridge Road Rocky Mountain National Park",
       "url":"/img/Fullsize-43.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-43.jpg",
       "keywords":{
-
+        "nature": true
       }
    },
    {
       "title":"",
       "url":"/img/Fullsize-44.jpg",
+      "hide":true,
       "previewUrl":"/img/preview/ConumndrumLog-44.jpg",
       "keywords":{
-
+        "nature": true
       }
    },
    {
@@ -350,11 +328,11 @@ window.photos = [
       }
    },
    {
-      "title":"",
+      "title":"Pool Table",
       "url":"/img/Fullsize-49.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-49.jpg",
       "keywords":{
-
+        "person":cyn
       }
    },
    {
@@ -362,7 +340,7 @@ window.photos = [
       "url":"/img/Fullsize-50.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-50.jpg",
       "keywords":{
-
+        "nature":true
       }
    },
    {
@@ -391,162 +369,34 @@ window.photos = [
    },
    {
       "title":"",
-      "url":"/img/Fullsize-57.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-57.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-58.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-58.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-59.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-59.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-60.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-60.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-61.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-61.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-62.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-62.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-63.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-63.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-64.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-64.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-65.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-65.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-66.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-66.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-67.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-67.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-68.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-68.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-69.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-69.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-70.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-70.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-71.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-71.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-74.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-74.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-75.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-75.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-76.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-76.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
-      "url":"/img/Fullsize-77.jpg",
-      "previewUrl":"/img/preview/ConumndrumLog-77.jpg",
-      "keywords":{
-
-      }
-   },
-   {
-      "title":"",
       "url":"/img/Fullsize-79.jpg",
       "previewUrl":"/img/preview/ConumndrumLog-79.jpg",
       "keywords":{
-
+        "nature":true
+      }
+   },
+   {
+      "title":"Cynthia at Arches",
+      "url":"/img/Fullsize-81.jpg",
+      "previewUrl":"/img/preview/ConumndrumLog-81.jpg",
+      "keywords":{
+        "person":cyn
+      }
+   },
+   {
+      "title":"Train in Idaho Springs",
+      "url":"/img/Train.jpg",
+      "previewUrl":"/img/preview/Train.jpg",
+      "keywords":{
+        "nature":true
+      }
+   },
+   {
+      "title":"Contiental Divide Trail",
+      "url":"/img/TrailRidgeRoad.jpg",
+      "previewUrl":"/img/preview/TrailRidgeRoad.jpg",
+      "keywords":{
+        "nature":true
       }
    },
 ];
