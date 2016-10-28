@@ -9,6 +9,15 @@ window.photos = [
        "nature":true
      }
   },
+
+  {
+     "title":"",
+     "url":"/img/CynInBangkok.jpg",
+     "previewUrl":"/img/preview/CynInBangkok.jpg",
+     "keywords":{
+       "person":cyn
+     }
+  },
   {
      "title":"",
      "url":"/img/CynthiaLeadville.jpg",
