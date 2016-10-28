@@ -32,24 +32,24 @@ var ImageFilter = React.createClass({
         null,
         React.createElement(
           "div",
-          {className:"col-sm-6"},
+          null,
           React.createElement(
             "label",
             null,
             "Show People"
           ),
-          React.createElement("input",
-            { type: "checkbox", id: "showpeople", defaultChecked: "checked", onChange: this.showPeopleChange }
-          ),
+          React.createElement("input", { type: "checkbox", id: "showpeople", defaultChecked: "checked", onChange: this.showPeopleChange })
+        ),
+        React.createElement(
+          "div",
+          null,
           React.createElement(
             "label",
             null,
             "Show Landscapes"
           ),
-          React.createElement("input",
-            { type: "checkbox", id: "showlandscape", defaultChecked: "checked", onChange: this.showLandscapeChange }
-          )
-        ),
+          React.createElement("input", { type: "checkbox", id: "showlandscape", defaultChecked: "checked", onChange: this.showLandscapeChange })
+        )
       ),
       React.createElement(ImageContainer, { filter:filterPhotos})
     );
