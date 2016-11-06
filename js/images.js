@@ -1,12 +1,32 @@
 
 window.cyn = "Cynthia";
+window.bogota = "";
 window.photos = [
+
+    {
+       "title":"Train in Idaho Springs",
+       "url":"/img/colombia/Grafitti.jpg",
+       "previewUrl":"/img/colombia/Grafitti1Preview.jpg",
+       "keywords":{
+         "nature":true,
+         "location":bogota
+       }
+    },
   {
      "title":"Train in Idaho Springs",
      "url":"/img/Train.jpg",
      "previewUrl":"/img/preview/Train.jpg",
      "keywords":{
        "nature":true
+     }
+  },
+
+  {
+     "title":"",
+     "url":"/img/CynInBangkok.jpg",
+     "previewUrl":"/img/preview/CynInBangkok.jpg",
+     "keywords":{
+       "person":cyn
      }
   },
   {
