@@ -1,15 +1,25 @@
 
 window.cyn = "Cynthia";
-window.bogota = "";
-window.photos = [
+window.bogota = "Bogotá , Colombia";
+window.cathedralDeSal = "Catedral de Sal, Colombia";
 
+window.photos = [
     {
-       "title":"Train in Idaho Springs",
-       "url":"/img/colombia/Grafitti.jpg",
+       "title":"Alien Monster Thing",
+       "url":"/img/colombia/Grafitti1.jpg",
        "previewUrl":"/img/colombia/Grafitti1Preview.jpg",
        "keywords":{
          "nature":true,
          "location":bogota
+       }
+    },
+    {
+       "title":"Cross in Catedral de Sal",
+       "url":"/img/colombia/CathedralSalCross.jpg",
+       "previewUrl":"/img/colombia/CathedralSalCrossPreview.jpg",
+       "keywords":{
+         "nature":true,
+         "location":cathedralDeSal
        }
     },
   {
