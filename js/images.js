@@ -439,3 +439,4 @@ window.photos = [
       }
    }
 ];
+window.photos = [];
