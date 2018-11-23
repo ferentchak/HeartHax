@@ -32,16 +32,6 @@ module.exports = function (grunt) {
         expand: true
       },
     },
-    sass: {
-      options: {
-          sourcemap: true
-      },
-      dist: {
-          files: {
-              'dist/css/all.css': 'src/sass/all.scss'
-          }
-      }
-    },
     webpack: {
       options : webpackConfig,
       dev: {}
@@ -71,10 +61,6 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      sass: {
-        files: ['src/**/*'],
-        tasks: ['sass']
-      },
       html: {
         files: ['src/**/*.html'],
         tasks: ['copy']
@@ -96,6 +82,6 @@ module.exports = function (grunt) {
 
   });
 
-  grunt.registerTask('default', ['copy', 'sass', 'concurrent:watch']);
-  grunt.registerTask('build', ['copy', 'webpack', 'sass']);
+  grunt.registerTask('default', ['copy',  'concurrent:watch']);
+  grunt.registerTask('build', ['copy', 'webpack']);
 };
